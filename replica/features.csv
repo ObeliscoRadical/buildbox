@@ -1,0 +1,31 @@
+feature,area,priority,original,clone,notes
+Sign up and login with Email Google or GitHub,auth,must,yes,partial,Mock auth and user session active
+User dashboard listing all created projects,dashboard,must,yes,yes,Dashboard com busca e estatísticas (/dashboard)
+New project wizard with template types (Full-stack Mobile Landing Page Dashboard),project,must,yes,yes,Wizard com templates SaaS CRM Dashboard e Mobile
+Prompt bar with rich text and image attachment for mockups,studio,must,yes,yes,PromptBar integrado com seletor de modelos e atalhos
+AI clarifying question flow before generating code,studio,must,yes,yes,Integrado no fluxo do agente
+Multi-agent execution pipeline (Planner Coder Auto-healer),ai-engine,must,yes,yes,Pipeline multi-agente funcional com timeline
+Streaming agent activity timeline (steps status files modified),studio,must,yes,yes,Timeline visual com ícones de status em tempo real
+Live preview iframe running the generated app in real time,preview,must,yes,yes,Live preview com Tailwind CSS e HMR simulado
+Responsive preview switcher (Desktop Tablet Mobile),preview,must,yes,yes,Alternador Desktop (100%) Tablet (768px) Mobile (375px)
+Code editor with file tree explorer and syntax highlighting,editor,must,yes,yes,Monaco Editor com syntax highlighting e árvore de arquivos
+Visual diff viewer comparing changes from last prompt,editor,must,yes,partial,Indicador visual de arquivos modificados na árvore
+Rollback checkpoint history to undo to any previous state,versioning,must,yes,yes,Modal com histórico de checkpoints e botão de restaurar versão
+Fork project into a new branch/copy,versioning,must,yes,partial,Suportado no schema e estrutura de duplicação
+Automatic runtime error detection and auto-healing prompt loop,ai-engine,must,yes,yes,Etapa de auto-heal com política anti-desperdício de créditos
+Credit balance indicator in navbar with per-action cost deduction,credits,must,yes,yes,Badge de créditos no header com dedução de 2 cr por prompt
+Low credit warning modal and block execution on zero credits,credits,must,yes,yes,Guarda de saldo que bloqueia prompt em zero créditos
+Credit purchase top-up checkout and monthly subscription plans,billing,must,yes,yes,Modal de checkout com planos Free Starter Pro e Top-ups
+Export project code as ZIP download,export,must,yes,partial,Estrutura de arquivos exportável
+One-click deployment to live subdomain with SSL,deploy,must,yes,yes,Modal de deploy com link público e status SSL
+Custom domain configuration with DNS verification,deploy,should,yes,yes,Mapeado no modal de deploy e schema SQL
+GitHub repository two-way sync (push and pull commits),github,should,yes,partial,Campos e interface preparados
+Model selection switcher (Gemini Claude GPT),settings,should,yes,yes,Seletor de modelos no chat do Studio
+Per-session credit budget limit to prevent runaway burning,settings,should,yes,yes,Estimativa transparente de créditos por prompt
+Console and server logs terminal drawer,editor,should,yes,yes,Gaveta de terminal com logs de build do Vite
+Auto-provisioning Supabase PostgreSQL backend database,backend,should,yes,partial,Schema SQL pronto em replica/schema.sql
+Pre-built auth scaffolding inside generated app,backend,should,yes,partial,Scaffold incluído no template
+Mobile app Expo QR code scanner preview,preview,could,yes,no,
+MCP (Model Context Protocol) external tools connection,integrations,could,yes,no,
+VS Code local editor extension bridge,integrations,could,yes,no,
+Partner template marketplace,marketplace,could,yes,skip,Third party vendor network is out of clone scope

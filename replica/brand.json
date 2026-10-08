@@ -1,0 +1,6 @@
+{
+  "brand_name": "Buildbox",
+  "avoid": ["Emergent", "Emergent Labs", "Emergent.sh", "emergent-sh"],
+  "domains": ["emergent.sh", "app.emergent.sh"],
+  "colors": ["#005fcc"]
+}
